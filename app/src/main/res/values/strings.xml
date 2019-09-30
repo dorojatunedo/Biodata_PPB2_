@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Biodata</string>
+    <string name="nama">Dorojatun Kuncoro Yekti Raharjo</string>
+    <string name="nim">A11.201710523</string>
+    <string name="hobby">Memecahkan Masalah</string>
+    <string name="deskripsi">Saya adalah orang yang suka dengan Hal baru dimana saya selalu ingin mencoba mempelajarinya</string>
+    <string name="alamat">Jl. Mentawai XII Bojongbata Kec. Pemalang Kabupaten Pemalang Jawa Tengah 52319</string>
+    <string name="tlp">085868721863</string>
+    <string name="email">edorojatun@gmail.com</string>
+</resources>

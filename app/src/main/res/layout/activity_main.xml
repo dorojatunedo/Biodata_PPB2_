@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/foto"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+       android:paddingRight="40dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:text="NIM         :"/>
+
+    <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:gravity="left"
+            android:text="@string/nim"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:text="Nama      :"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:text="@string/nama"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:text="Hobby     :"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:text="@string/hobby"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:text="Deskripsi :"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:paddingTop="10dp"
+            android:text="@string/deskripsi"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:text="Alamat    :"/>
+
+        <TextView
+            android:id="@+id/textAlamat"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:paddingTop="10dp"
+            android:text="@string/alamat"/>
+
+      <ImageButton
+          android:id="@+id/alamat"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:src="@drawable/ic_map_black_24dp"
+          android:onClick="alamat"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:text="Telepon   :"/>
+
+        <TextView
+            android:id="@+id/textTelepon"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:text="@string/tlp"/>
+
+     <ImageButton
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/ic_local_phone_black_24dp"
+         android:onClick="telepon"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:text="Email       :"/>
+
+        <TextView
+            android:id="@+id/textEmail"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:paddingTop="10dp"
+            android:text="@string/email"/>
+
+       <ImageButton
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:src="@drawable/ic_mail_outline_black_24dp"
+           android:onClick="email"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
